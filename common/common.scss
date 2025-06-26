@@ -94,10 +94,11 @@
   color: var(--primary-very-low);
 }
 .search-menu{
-  margin-top: 10px;
+  margin-top: 16px;
 }
 .search-menu .search-input {
   border: 0;
+margin-top:16px
 }
 .custom-homepage-columns:nth-child(2){
 display: none;
@@ -346,15 +347,11 @@ a:hover {
 
 .custom-search-banner-wrap {
   border-radius: var(--mint-border-radius);
-  background: linear-gradient(
-    270deg,
-    var(--tertiary-medium) 0%,
-    var(--tertiary) 100%
-  );
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding:16px
 }
 
 .custom-search-banner-wrap h1,
@@ -421,7 +418,16 @@ a span:first-of-type {
   flex-direction: column;
   
 }
-
+.welcome-banner .btn.search-icon:not(.has-search-button-text) {
+    z-index: 2;
+    background: rgba(0,0,0,0);
+    line-height: 1;
+    color: var(--primary-medium);
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 7px;
+}
 .stat-banner__wrapper li {
   margin: 10px;
   display: flex;
