@@ -451,6 +451,9 @@ a span:first-of-type {
 }
 }
 @media screen and (max-width: 500px) {
+  .search-menu.welcome-banner__search-menu {
+    width: 80vw;
+  }
   .category-boxes {
     display: grid;
     grid-gap: 2em;
